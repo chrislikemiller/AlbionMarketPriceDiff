@@ -1,0 +1,193 @@
+﻿ 581|T1_WOOD|Rough Logs
+ 582|T2_WOOD|Birch Logs
+ 583|T3_WOOD|Chestnut Logs
+ 584|T4_WOOD|Pine Logs
+ 585|T5_WOOD|Cedar Logs
+ 586|T6_WOOD|Bloodoak Logs
+ 587|T7_WOOD|Ashenbark Logs
+ 588|T8_WOOD|Whitewood Logs
+ 589|T4_WOOD_LEVEL1@1|Uncommon Pine Logs
+ 590|T5_WOOD_LEVEL1@1|Uncommon Cedar Logs
+ 591|T6_WOOD_LEVEL1@1|Uncommon Bloodoak Logs
+ 592|T7_WOOD_LEVEL1@1|Uncommon Ashenbark Logs
+ 593|T8_WOOD_LEVEL1@1|Uncommon Whitewood Logs
+ 594|T4_WOOD_LEVEL2@2|Rare Pine Logs
+ 595|T5_WOOD_LEVEL2@2|Rare Cedar Logs
+ 596|T6_WOOD_LEVEL2@2|Rare Bloodoak Logs
+ 597|T7_WOOD_LEVEL2@2|Rare Ashenbark Logs
+ 598|T8_WOOD_LEVEL2@2|Rare Whitewood Logs
+ 599|T4_WOOD_LEVEL3@3|Exceptional Pine Logs
+ 600|T5_WOOD_LEVEL3@3|Exceptional Cedar Logs
+ 601|T6_WOOD_LEVEL3@3|Exceptional Bloodoak Logs
+ 602|T7_WOOD_LEVEL3@3|Exceptional Ashenbark Logs
+ 603|T8_WOOD_LEVEL3@3|Exceptional Whitewood Logs
+ 604|T1_ROCK|Rough Stone
+ 605|T2_ROCK|Limestone
+ 606|T3_ROCK|Sandstone
+ 607|T4_ROCK|Travertine
+ 608|T5_ROCK|Granite
+ 609|T6_ROCK|Slate
+ 610|T7_ROCK|Basalt
+ 611|T8_ROCK|Marble
+ 612|T2_ORE|Copper Ore
+ 613|T3_ORE|Tin Ore
+ 614|T4_ORE|Iron Ore
+ 615|T5_ORE|Titanium Ore
+ 616|T6_ORE|Runite Ore
+ 617|T7_ORE|Meteorite Ore
+ 618|T8_ORE|Adamantium Ore
+ 619|T4_ORE_LEVEL1@1|Uncommon Iron Ore
+ 620|T5_ORE_LEVEL1@1|Uncommon Titanium Ore
+ 621|T6_ORE_LEVEL1@1|Uncommon Runite Ore
+ 622|T7_ORE_LEVEL1@1|Uncommon Meteorite Ore
+ 623|T8_ORE_LEVEL1@1|Uncommon Adamantium Ore
+ 624|T4_ORE_LEVEL2@2|Rare Iron Ore
+ 625|T5_ORE_LEVEL2@2|Rare Titanium Ore
+ 626|T6_ORE_LEVEL2@2|Rare Runite Ore
+ 627|T7_ORE_LEVEL2@2|Rare Meteorite Ore
+ 628|T8_ORE_LEVEL2@2|Rare Adamantium Ore
+ 629|T4_ORE_LEVEL3@3|Exceptional Iron Ore
+ 630|T5_ORE_LEVEL3@3|Exceptional Titanium Ore
+ 631|T6_ORE_LEVEL3@3|Exceptional Runite Ore
+ 632|T7_ORE_LEVEL3@3|Exceptional Meteorite Ore
+ 633|T8_ORE_LEVEL3@3|Exceptional Adamantium Ore
+ 634|T1_HIDE|Scraps of Hide
+ 635|T2_HIDE|Rugged Hide
+ 636|T3_HIDE|Thin Hide
+ 637|T4_HIDE|Medium Hide
+ 638|T5_HIDE|Heavy Hide
+ 639|T6_HIDE|Robust Hide
+ 640|T7_HIDE|Thick Hide
+ 641|T8_HIDE|Resilient Hide
+ 642|T4_HIDE_LEVEL1@1|Uncommon Medium Hide
+ 643|T5_HIDE_LEVEL1@1|Uncommon Heavy Hide
+ 644|T6_HIDE_LEVEL1@1|Uncommon Robust Hide
+ 645|T7_HIDE_LEVEL1@1|Uncommon Thick Hide
+ 646|T8_HIDE_LEVEL1@1|Uncommon Resilient Hide
+ 647|T4_HIDE_LEVEL2@2|Rare Medium Hide
+ 648|T5_HIDE_LEVEL2@2|Rare Heavy Hide
+ 649|T6_HIDE_LEVEL2@2|Rare Robust Hide
+ 650|T7_HIDE_LEVEL2@2|Rare Thick Hide
+ 651|T8_HIDE_LEVEL2@2|Rare Resilient Hide
+ 652|T4_HIDE_LEVEL3@3|Exceptional Medium Hide
+ 653|T5_HIDE_LEVEL3@3|Exceptional Heavy Hide
+ 654|T6_HIDE_LEVEL3@3|Exceptional Robust Hide
+ 655|T7_HIDE_LEVEL3@3|Exceptional Thick Hide
+ 656|T8_HIDE_LEVEL3@3|Exceptional Resilient Hide
+ 657|T2_FIBER|Cotton
+ 658|T3_FIBER|Flax
+ 659|T4_FIBER|Hemp
+ 660|T5_FIBER|Skyflower
+ 661|T6_FIBER|Redleaf Cotton
+ 662|T7_FIBER|Sunflax
+ 663|T8_FIBER|Ghost Hemp
+ 664|T4_FIBER_LEVEL1@1|Uncommon Hemp
+ 665|T5_FIBER_LEVEL1@1|Uncommon Skyflower
+ 666|T6_FIBER_LEVEL1@1|Uncommon Redleaf Cotton
+ 667|T7_FIBER_LEVEL1@1|Uncommon Sunflax
+ 668|T8_FIBER_LEVEL1@1|Uncommon Ghost Hemp
+ 669|T4_FIBER_LEVEL2@2|Rare Hemp
+ 670|T5_FIBER_LEVEL2@2|Rare Skyflower
+ 671|T6_FIBER_LEVEL2@2|Rare Redleaf Cotton
+ 672|T7_FIBER_LEVEL2@2|Rare Sunflax
+ 673|T8_FIBER_LEVEL2@2|Rare Ghost Hemp
+ 674|T4_FIBER_LEVEL3@3|Exceptional Hemp
+ 675|T5_FIBER_LEVEL3@3|Exceptional Skyflower
+ 676|T6_FIBER_LEVEL3@3|Exceptional Redleaf Cotton
+ 677|T7_FIBER_LEVEL3@3|Exceptional Sunflax
+ 678|T8_FIBER_LEVEL3@3|Exceptional Ghost Hemp
+ 679|T2_PLANKS|Birch Planks
+ 680|T3_PLANKS|Chestnut Planks
+ 681|T4_PLANKS|Pine Planks
+ 682|T5_PLANKS|Cedar Planks
+ 683|T6_PLANKS|Bloodoak Planks
+ 684|T7_PLANKS|Ashenbark Planks
+ 685|T8_PLANKS|Whitewood Planks
+ 686|T4_PLANKS_LEVEL1@1|Uncommon Pine Planks
+ 687|T5_PLANKS_LEVEL1@1|Uncommon Cedar Planks
+ 688|T6_PLANKS_LEVEL1@1|Uncommon Bloodoak Planks
+ 689|T7_PLANKS_LEVEL1@1|Uncommon Ashenbark Planks
+ 690|T8_PLANKS_LEVEL1@1|Uncommon Whitewood Planks
+ 691|T4_PLANKS_LEVEL2@2|Rare Pine Planks
+ 692|T5_PLANKS_LEVEL2@2|Rare Cedar Planks
+ 693|T6_PLANKS_LEVEL2@2|Rare Bloodoak Planks
+ 694|T7_PLANKS_LEVEL2@2|Rare Ashenbark Planks
+ 695|T8_PLANKS_LEVEL2@2|Rare Whitewood Planks
+ 696|T4_PLANKS_LEVEL3@3|Exceptional Pine Planks
+ 697|T5_PLANKS_LEVEL3@3|Exceptional Cedar Planks
+ 698|T6_PLANKS_LEVEL3@3|Exceptional Bloodoak Planks
+ 699|T7_PLANKS_LEVEL3@3|Exceptional Ashenbark Planks
+ 700|T8_PLANKS_LEVEL3@3|Exceptional Whitewood Planks
+ 701|T2_STONEBLOCK|Limestone Block
+ 702|T3_STONEBLOCK|Sandstone Block
+ 703|T4_STONEBLOCK|Travertine Block
+ 704|T5_STONEBLOCK|Granite Block
+ 705|T6_STONEBLOCK|Slate Block
+ 706|T7_STONEBLOCK|Basalt Block
+ 707|T8_STONEBLOCK|Marble Block
+ 708|T2_METALBAR|Copper Bar
+ 709|T3_METALBAR|Bronze Bar
+ 710|T4_METALBAR|Steel Bar
+ 711|T5_METALBAR|Titanium Steel Bar
+ 712|T6_METALBAR|Runite Steel Bar
+ 713|T7_METALBAR|Meteorite Steel Bar
+ 714|T8_METALBAR|Adamantium Steel Bar
+ 715|T4_METALBAR_LEVEL1@1|Uncommon Steel Bar
+ 716|T5_METALBAR_LEVEL1@1|Uncommon Titanium Steel Bar
+ 717|T6_METALBAR_LEVEL1@1|Uncommon Runite Steel Bar
+ 718|T7_METALBAR_LEVEL1@1|Uncommon Meteorite Steel Bar
+ 719|T8_METALBAR_LEVEL1@1|Uncommon Adamantium Steel Bar
+ 720|T4_METALBAR_LEVEL2@2|Rare Steel Bar
+ 721|T5_METALBAR_LEVEL2@2|Rare Titanium Steel Bar
+ 722|T6_METALBAR_LEVEL2@2|Rare Runite Steel Bar
+ 723|T7_METALBAR_LEVEL2@2|Rare Meteorite Steel Bar
+ 724|T8_METALBAR_LEVEL2@2|Rare Adamantium Steel Bar
+ 725|T4_METALBAR_LEVEL3@3|Exceptional Steel Bar
+ 726|T5_METALBAR_LEVEL3@3|Exceptional Titanium Steel Bar
+ 727|T6_METALBAR_LEVEL3@3|Exceptional Runite Steel Bar
+ 728|T7_METALBAR_LEVEL3@3|Exceptional Meteorite Steel Bar
+ 729|T8_METALBAR_LEVEL3@3|Exceptional Adamantium Steel Bar
+ 730|T2_LEATHER|Stiff Leather
+ 731|T3_LEATHER|Thick Leather
+ 732|T4_LEATHER|Worked Leather
+ 733|T5_LEATHER|Cured Leather
+ 734|T6_LEATHER|Hardened Leather
+ 735|T7_LEATHER|Reinforced Leather
+ 736|T8_LEATHER|Fortified Leather
+ 737|T4_LEATHER_LEVEL1@1|Uncommon Worked Leather
+ 738|T5_LEATHER_LEVEL1@1|Uncommon Cured Leather
+ 739|T6_LEATHER_LEVEL1@1|Uncommon Hardened Leather
+ 740|T7_LEATHER_LEVEL1@1|Uncommon Reinforced Leather
+ 741|T8_LEATHER_LEVEL1@1|Uncommon Fortified Leather
+ 742|T4_LEATHER_LEVEL2@2|Rare Worked Leather
+ 743|T5_LEATHER_LEVEL2@2|Rare Cured Leather
+ 744|T6_LEATHER_LEVEL2@2|Rare Hardened Leather
+ 745|T7_LEATHER_LEVEL2@2|Rare Reinforced Leather
+ 746|T8_LEATHER_LEVEL2@2|Rare Fortified Leather
+ 747|T4_LEATHER_LEVEL3@3|Exceptional Worked Leather
+ 748|T5_LEATHER_LEVEL3@3|Exceptional Cured Leather
+ 749|T6_LEATHER_LEVEL3@3|Exceptional Hardened Leather
+ 750|T7_LEATHER_LEVEL3@3|Exceptional Reinforced Leather
+ 751|T8_LEATHER_LEVEL3@3|Exceptional Fortified Leather
+ 752|T2_CLOTH|Simple Cloth
+ 753|T3_CLOTH|Neat Cloth
+ 754|T4_CLOTH|Fine Cloth
+ 755|T5_CLOTH|Ornate Cloth
+ 756|T6_CLOTH|Lavish Cloth
+ 757|T7_CLOTH|Opulent Cloth
+ 758|T8_CLOTH|Baroque Cloth
+ 759|T4_CLOTH_LEVEL1@1|Uncommon Fine Cloth
+ 760|T5_CLOTH_LEVEL1@1|Uncommon Ornate Cloth
+ 761|T6_CLOTH_LEVEL1@1|Uncommon Lavish Cloth
+ 762|T7_CLOTH_LEVEL1@1|Uncommon Opulent Cloth
+ 763|T8_CLOTH_LEVEL1@1|Uncommon Baroque Cloth
+ 764|T4_CLOTH_LEVEL2@2|Rare Fine Cloth
+ 765|T5_CLOTH_LEVEL2@2|Rare Ornate Cloth
+ 766|T6_CLOTH_LEVEL2@2|Rare Lavish Cloth
+ 767|T7_CLOTH_LEVEL2@2|Rare Opulent Cloth
+ 768|T8_CLOTH_LEVEL2@2|Rare Baroque Cloth
+ 769|T4_CLOTH_LEVEL3@3|Exceptional Fine Cloth
+ 770|T5_CLOTH_LEVEL3@3|Exceptional Ornate Cloth
+ 771|T6_CLOTH_LEVEL3@3|Exceptional Lavish Cloth
+ 772|T7_CLOTH_LEVEL3@3|Exceptional Opulent Cloth
+ 773|T8_CLOTH_LEVEL3@3|Exceptional Baroque Cloth

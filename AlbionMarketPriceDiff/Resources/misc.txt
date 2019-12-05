@@ -1,0 +1,523 @@
+﻿202|QUESTITEM_TOKEN_ARENA_UNRANKED|Arena Sigil
+355|QUESTITEM_TOKEN_ROYAL_T4|Adept's Royal Sigil
+ 356|QUESTITEM_TOKEN_ROYAL_T5|Expert's Royal Sigil
+ 357|QUESTITEM_TOKEN_ROYAL_T6|Master's Royal Sigil
+ 358|QUESTITEM_TOKEN_ROYAL_T7|Grandmaster's Royal Sigil
+ 359|QUESTITEM_TOKEN_ROYAL_T8|Elder's Royal Sigil
+ 147|TREASURE_KNOWLEDGE_RARITY1|Corrupted Scroll
+ 148|TREASURE_KNOWLEDGE_RARITY2|Thin Booklet
+ 149|TREASURE_KNOWLEDGE_RARITY3|Ancient Tome
+ 150|TREASURE_SILVERWARE_RARITY1|Silver Cup
+ 151|TREASURE_SILVERWARE_RARITY2|Silver Mirror
+ 152|TREASURE_SILVERWARE_RARITY3|Silver Chandelier
+ 153|TREASURE_DECORATIVE_RARITY1|Simple Stone Toy
+ 154|TREASURE_DECORATIVE_RARITY2|Stone Mask
+ 155|TREASURE_DECORATIVE_RARITY3|Stone Idol
+ 156|TREASURE_CEREMONIAL_RARITY1|Ornamental Scepter
+ 157|TREASURE_CEREMONIAL_RARITY2|Globus Cruciger
+ 158|TREASURE_CEREMONIAL_RARITY3|Golden Crown
+ 159|TREASURE_TRIBAL_RARITY1|Feather Talisman
+ 160|TREASURE_TRIBAL_RARITY2|Dreamcatcher
+ 161|TREASURE_TRIBAL_RARITY3|Holy Fetish
+ 162|TREASURE_RITUAL_RARITY1|Ritual Candles
+ 163|TREASURE_RITUAL_RARITY2|Blood Chalice
+ 164|TREASURE_RITUAL_RARITY3|Sacrificial Dagger
+ 165|QUESTITEM_TUTORIAL_HERETIC_PLANS 
+ 166|QUESTITEM_TRANSFER_LETTER|Letter of Transfer
+ 167|QUESTITEM_LIGHT_BLUEPRINTS|Delivery|Blueprints
+ 168|QUESTITEM_LIGHT_MANUSCRIPTS|Delivery|Artistic Manuscripts
+ 169|QUESTITEM_LIGHT_SURVEYS|Delivery|Geomantic Surveys
+ 170|QUESTITEM_HEAVY_MORTAR|Delivery|Mortar
+ 171|QUESTITEM_HEAVY_CRATE|Delivery|Crates
+ 172|QUESTITEM_HEAVY_BARREL|Delivery|Barrels
+ 173|QUESTITEM_LIGHT_FUR|Delivery|Heavy Fur
+ 174|QUESTITEM_LIGHT_THEPACKAGE|Delivery|"The Package"
+ 175|QUESTITEM_LIGHT_PATROLROUTE|Delivery|Patrol Route
+ 176|QUESTITEM_HEAVY_MOONSHINE|Delivery|Geoff the Brigand's All-Natural Enriched Moonshine
+ 177|QUESTITEM_LIGHT_KITTENS|Delivery|Sack of Kittens
+ 178|QUESTITEM_LIGHT_BEES|Delivery|Beehives
+ 179|QUESTITEM_LIGHT_OLDCLOTHES|Delivery|Old Clothes
+ 180|QUESTITEM_HEAVY_FARMTOOLS|Delivery|Farmyard Tools
+ 181|QUESTITEM_HEAVY_MANURE|Delivery|Pile of Manure
+ 182|QUESTITEM_LIGHT_ASSASSINATION|Delivery|Assassination Order
+ 183|QUESTITEM_LIGHT_CASUALTIES|Delivery|Casualty Report
+ 184|QUESTITEM_LIGHT_RINGS|Delivery|Regimental Rings
+ 185|QUESTITEM_HEAVY_MEDICAL|Delivery|Medical Supplies
+ 186|QUESTITEM_HEAVY_FIREBARREL|Delivery|Sensitive Barrels
+3830|T2_JOURNAL_WOOD|Novice Lumberjack's Journal (Partially Full)
+3831|T3_JOURNAL_WOOD|Journeyman Lumberjack's Journal (Partially Full)
+3832|T4_JOURNAL_WOOD|Adept Lumberjack's Journal (Partially Full)
+3833|T5_JOURNAL_WOOD|Expert Lumberjack's Journal (Partially Full)
+3834|T6_JOURNAL_WOOD|Master Lumberjack's Journal (Partially Full)
+3835|T7_JOURNAL_WOOD|Grandmaster Lumberjack's Journal (Partially Full)
+3836|T8_JOURNAL_WOOD|Elder Lumberjack's Journal (Partially Full)
+3837|T2_JOURNAL_STONE|Novice Stonecutter's Journal (Partially Full)
+3838|T3_JOURNAL_STONE|Journeyman Stonecutter's Journal (Partially Full)
+3839|T4_JOURNAL_STONE|Adept Stonecutter's Journal (Partially Full)
+3840|T5_JOURNAL_STONE|Expert Stonecutter's Journal (Partially Full)
+3841|T6_JOURNAL_STONE|Master Stonecutter's Journal (Partially Full)
+3842|T7_JOURNAL_STONE|Grandmaster Stonecutter's Journal (Partially Full)
+3843|T8_JOURNAL_STONE|Elder Stonecutter's Journal (Partially Full)
+3844|T2_JOURNAL_ORE|Novice Prospector's Journal (Partially Full)
+3845|T3_JOURNAL_ORE|Journeyman Prospector's Journal (Partially Full)
+3846|T4_JOURNAL_ORE|Adept Prospector's Journal (Partially Full)
+3847|T5_JOURNAL_ORE|Expert Prospector's Journal (Partially Full)
+3848|T6_JOURNAL_ORE|Master Prospector's Journal (Partially Full)
+3849|T7_JOURNAL_ORE|Grandmaster Prospector's Journal (Partially Full)
+3850|T8_JOURNAL_ORE|Elder Prospector's Journal (Partially Full)
+3851|T2_JOURNAL_FIBER|Novice Cropper's Journal (Partially Full)
+3852|T3_JOURNAL_FIBER|Journeyman Cropper's Journal (Partially Full)
+3853|T4_JOURNAL_FIBER|Adept Cropper's Journal (Partially Full)
+3854|T5_JOURNAL_FIBER|Expert Cropper's Journal (Partially Full)
+3855|T6_JOURNAL_FIBER|Master Cropper's Journal (Partially Full)
+3856|T7_JOURNAL_FIBER|Grandmaster Cropper's Journal (Partially Full)
+3857|T8_JOURNAL_FIBER|Elder Cropper's Journal (Partially Full)
+3858|T2_JOURNAL_HIDE|Novice Gamekeeper's Journal (Partially Full)
+3859|T3_JOURNAL_HIDE|Journeyman Gamekeeper's Journal (Partially Full)
+3860|T4_JOURNAL_HIDE|Adept Gamekeeper's Journal (Partially Full)
+3861|T5_JOURNAL_HIDE|Expert Gamekeeper's Journal (Partially Full)
+3862|T6_JOURNAL_HIDE|Master Gamekeeper's Journal (Partially Full)
+3863|T7_JOURNAL_HIDE|Grandmaster Gamekeeper's Journal (Partially Full)
+3864|T8_JOURNAL_HIDE|Elder Gamekeeper's Journal (Partially Full)
+3865|T2_JOURNAL_WARRIOR|Novice Blacksmith's Journal (Partially Full)
+3866|T3_JOURNAL_WARRIOR|Journeyman Blacksmith's Journal (Partially Full)
+3867|T4_JOURNAL_WARRIOR|Adept Blacksmith's Journal (Partially Full)
+3868|T5_JOURNAL_WARRIOR|Expert Blacksmith's Journal (Partially Full)
+3869|T6_JOURNAL_WARRIOR|Master Blacksmith's Journal (Partially Full)
+3870|T7_JOURNAL_WARRIOR|Grandmaster Blacksmith's Journal (Partially Full)
+3871|T8_JOURNAL_WARRIOR|Elder Blacksmith's Journal (Partially Full)
+3872|T2_JOURNAL_HUNTER|Novice Fletcher's Journal (Partially Full)
+3873|T3_JOURNAL_HUNTER|Journeyman Fletcher's Journal (Partially Full)
+3874|T4_JOURNAL_HUNTER|Adept Fletcher's Journal (Partially Full)
+3875|T5_JOURNAL_HUNTER|Expert Fletcher's Journal (Partially Full)
+3876|T6_JOURNAL_HUNTER|Master Fletcher's Journal (Partially Full)
+3877|T7_JOURNAL_HUNTER|Grandmaster Fletcher's Journal (Partially Full)
+3878|T8_JOURNAL_HUNTER|Elder Fletcher's Journal (Partially Full)
+3879|T2_JOURNAL_MAGE|Novice Imbuer's Journal (Partially Full)
+3880|T3_JOURNAL_MAGE|Journeyman Imbuer's Journal (Partially Full)
+3881|T4_JOURNAL_MAGE|Adept Imbuer's Journal (Partially Full)
+3882|T5_JOURNAL_MAGE|Expert Imbuer's Journal (Partially Full)
+3883|T6_JOURNAL_MAGE|Master Imbuer's Journal (Partially Full)
+3884|T7_JOURNAL_MAGE|Grandmaster Imbuer's Journal (Partially Full)
+3885|T8_JOURNAL_MAGE|Elder Imbuer's Journal (Partially Full)
+3886|T2_JOURNAL_TOOLMAKER|Novice Tinker's Journal (Partially Full)
+3887|T3_JOURNAL_TOOLMAKER|Journeyman Tinker's Journal (Partially Full)
+3888|T4_JOURNAL_TOOLMAKER|Adept Tinker's Journal (Partially Full)
+3889|T5_JOURNAL_TOOLMAKER|Expert Tinker's Journal (Partially Full)
+3890|T6_JOURNAL_TOOLMAKER|Master Tinker's Journal (Partially Full)
+3891|T7_JOURNAL_TOOLMAKER|Grandmaster Tinker's Journal (Partially Full)
+3892|T8_JOURNAL_TOOLMAKER|Elder Tinker's Journal (Partially Full)
+3893|T2_JOURNAL_MERCENARY|Novice Mercenary's Journal (Partially Full)
+3894|T3_JOURNAL_MERCENARY|Journeyman Mercenary's Journal (Partially Full)
+3895|T4_JOURNAL_MERCENARY|Adept Mercenary's Journal (Partially Full)
+3896|T5_JOURNAL_MERCENARY|Expert Mercenary's Journal (Partially Full)
+3897|T6_JOURNAL_MERCENARY|Master Mercenary's Journal (Partially Full)
+3898|T7_JOURNAL_MERCENARY|Grandmaster Mercenary's Journal (Partially Full)
+3899|T8_JOURNAL_MERCENARY|Elder Mercenary's Journal (Partially Full)
+3900|T2_JOURNAL_TROPHY_GENERAL|Novice's Generalist Trophy Journal (Partially Full)
+3901|T3_JOURNAL_TROPHY_GENERAL|Journeyman's Generalist Trophy Journal (Partially Full)
+3902|T4_JOURNAL_TROPHY_GENERAL|Adept's Generalist Trophy Journal (Partially Full)
+3903|T5_JOURNAL_TROPHY_GENERAL|Expert's Generalist Trophy Journal (Partially Full)
+3904|T6_JOURNAL_TROPHY_GENERAL|Master's Generalist Trophy Journal (Partially Full)
+3905|T7_JOURNAL_TROPHY_GENERAL|Grandmaster's Generalist Trophy Journal (Partially Full)
+3906|T8_JOURNAL_TROPHY_GENERAL|Elder's Generalist Trophy Journal (Partially Full)
+3907|T2_JOURNAL_TROPHY_MERCENARY|Novice Mercenary's Trophy Journal (Partially Full)
+3908|T3_JOURNAL_TROPHY_MERCENARY|Journeyman Mercenary's Trophy Journal (Partially Full)
+3909|T4_JOURNAL_TROPHY_MERCENARY|Adept Mercenary's Trophy Journal (Partially Full)
+3910|T5_JOURNAL_TROPHY_MERCENARY|Expert Mercenary's Trophy Journal (Partially Full)
+3911|T6_JOURNAL_TROPHY_MERCENARY|Master Mercenary's Trophy Journal (Partially Full)
+3912|T7_JOURNAL_TROPHY_MERCENARY|Grandmaster Mercenary's Trophy Journal (Partially Full)
+3913|T8_JOURNAL_TROPHY_MERCENARY|Elder Mercenary's Trophy Journal (Partially Full)
+3914|T2_JOURNAL_TROPHY_HIDE|Novice Gamekeeper's Trophy Journal (Partially Full)
+3915|T3_JOURNAL_TROPHY_HIDE|Journeyman Gamekeeper's Trophy Journal (Partially Full)
+3916|T4_JOURNAL_TROPHY_HIDE|Adept Gamekeeper's Trophy Journal (Partially Full)
+3917|T5_JOURNAL_TROPHY_HIDE|Expert Gamekeeper's Trophy Journal (Partially Full)
+3918|T6_JOURNAL_TROPHY_HIDE|Master Gamekeeper's Trophy Journal (Partially Full)
+3919|T7_JOURNAL_TROPHY_HIDE|Grandmaster Gamekeeper's Trophy Journal (Partially Full)
+3920|T8_JOURNAL_TROPHY_HIDE|Elder Gamekeeper's Trophy Journal (Partially Full)
+3921|T2_JOURNAL_TROPHY_WOOD|Novice Lumberjack's Trophy Journal (Partially Full)
+3922|T3_JOURNAL_TROPHY_WOOD|Journeyman Lumberjack's Trophy Journal (Partially Full)
+3923|T4_JOURNAL_TROPHY_WOOD|Adept Lumberjack's Trophy Journal (Partially Full)
+3924|T5_JOURNAL_TROPHY_WOOD|Expert Lumberjack's Trophy Journal (Partially Full)
+3925|T6_JOURNAL_TROPHY_WOOD|Master Lumberjack's Trophy Journal (Partially Full)
+3926|T7_JOURNAL_TROPHY_WOOD|Grandmaster Lumberjack's Trophy Journal (Partially Full)
+3927|T8_JOURNAL_TROPHY_WOOD|Elder Lumberjack's Trophy Journal (Partially Full)
+3928|T2_JOURNAL_TROPHY_STONE|Novice Stonecutter's Trophy Journal (Partially Full)
+3929|T3_JOURNAL_TROPHY_STONE|Journeyman Stonecutter's Trophy Journal (Partially Full)
+3930|T4_JOURNAL_TROPHY_STONE|Adept Stonecutter's Trophy Journal (Partially Full)
+3931|T5_JOURNAL_TROPHY_STONE|Expert Stonecutter's Trophy Journal (Partially Full)
+3932|T6_JOURNAL_TROPHY_STONE|Master Stonecutter's Trophy Journal (Partially Full)
+3933|T7_JOURNAL_TROPHY_STONE|Grandmaster Stonecutter's Trophy Journal (Partially Full)
+3934|T8_JOURNAL_TROPHY_STONE|Elder Stonecutter's Trophy Journal (Partially Full)
+3935|T2_JOURNAL_TROPHY_ORE|Novice Prospector's Trophy Journal (Partially Full)
+3936|T3_JOURNAL_TROPHY_ORE|Journeyman Prospector's Trophy Journal (Partially Full)
+3937|T4_JOURNAL_TROPHY_ORE|Adept Prospector's Trophy Journal (Partially Full)
+3938|T5_JOURNAL_TROPHY_ORE|Expert Prospector's Trophy Journal (Partially Full)
+3939|T6_JOURNAL_TROPHY_ORE|Master Prospector's Trophy Journal (Partially Full)
+3940|T7_JOURNAL_TROPHY_ORE|Grandmaster Prospector's Trophy Journal (Partially Full)
+3941|T8_JOURNAL_TROPHY_ORE|Elder Prospector's Trophy Journal (Partially Full)
+3942|T2_JOURNAL_TROPHY_FIBER|Novice Cropper's Trophy Journal (Partially Full)
+3943|T3_JOURNAL_TROPHY_FIBER|Journeyman Cropper's Trophy Journal (Partially Full)
+3944|T4_JOURNAL_TROPHY_FIBER|Adept Cropper's Trophy Journal (Partially Full)
+3945|T5_JOURNAL_TROPHY_FIBER|Expert Cropper's Trophy Journal (Partially Full)
+3946|T6_JOURNAL_TROPHY_FIBER|Master Cropper's Trophy Journal (Partially Full)
+3947|T7_JOURNAL_TROPHY_FIBER|Grandmaster Cropper's Trophy Journal (Partially Full)
+3948|T8_JOURNAL_TROPHY_FIBER|Elder Cropper's Trophy Journal (Partially Full)
+3949|T2_JOURNAL_TROPHY_FISHING|Novice Fisherman's Trophy Journal (Partially Full)
+3950|T3_JOURNAL_TROPHY_FISHING|Journeyman Fisherman's Trophy Journal (Partially Full)
+3951|T4_JOURNAL_TROPHY_FISHING|Adept Fisherman's Trophy Journal (Partially Full)
+3952|T5_JOURNAL_TROPHY_FISHING|Expert Fisherman's Trophy Journal (Partially Full)
+3953|T6_JOURNAL_TROPHY_FISHING|Master Fisherman's Trophy Journal (Partially Full)
+3954|T7_JOURNAL_TROPHY_FISHING|Grandmaster Fisherman's Trophy Journal (Partially Full)
+3955|T8_JOURNAL_TROPHY_FISHING|Elder Fisherman's Trophy Journal (Partially Full)
+3956|T2_JOURNAL_FISHING|Novice Fisherman's Journal (Partially Full)
+3957|T3_JOURNAL_FISHING|Journeyman Fisherman's Journal (Partially Full)
+3958|T4_JOURNAL_FISHING|Adept Fisherman's Journal (Partially Full)
+3959|T5_JOURNAL_FISHING|Expert Fisherman's Journal (Partially Full)
+3960|T6_JOURNAL_FISHING|Master Fisherman's Journal (Partially Full)
+3961|T7_JOURNAL_FISHING|Grandmaster Fisherman's Journal (Partially Full)
+3962|T8_JOURNAL_FISHING|Elder Fisherman's Journal (Partially Full)
+3963|T2_LABOURER_CONTRACT_WOOD|Novice Lumberjack Contract
+3964|T3_LABOURER_CONTRACT_WOOD|Journeyman Lumberjack Contract
+3965|T4_LABOURER_CONTRACT_WOOD|Adept Lumberjack Contract
+3966|T5_LABOURER_CONTRACT_WOOD|Expert Lumberjack Contract
+3967|T6_LABOURER_CONTRACT_WOOD|Master Lumberjack Contract
+3968|T7_LABOURER_CONTRACT_WOOD|Grandmaster Lumberjack Contract
+3969|T8_LABOURER_CONTRACT_WOOD|Elder Lumberjack Contract
+3970|T2_LABOURER_CONTRACT_STONE|Novice Stonecutter Contract
+3971|T3_LABOURER_CONTRACT_STONE|Journeyman Stonecutter Contract
+3972|T4_LABOURER_CONTRACT_STONE|Adept Stonecutter Contract
+3973|T5_LABOURER_CONTRACT_STONE|Expert Stonecutter Contract
+3974|T6_LABOURER_CONTRACT_STONE|Master Stonecutter Contract
+3975|T7_LABOURER_CONTRACT_STONE|Grandmaster Stonecutter Contract
+3976|T8_LABOURER_CONTRACT_STONE|Elder Stonecutter Contract
+3977|T2_LABOURER_CONTRACT_FIBER|Novice Cropper Contract
+3978|T3_LABOURER_CONTRACT_FIBER|Journeyman Cropper Contract
+3979|T4_LABOURER_CONTRACT_FIBER|Adept Cropper Contract
+3980|T5_LABOURER_CONTRACT_FIBER|Expert Cropper Contract
+3981|T6_LABOURER_CONTRACT_FIBER|Master Cropper Contract
+3982|T7_LABOURER_CONTRACT_FIBER|Grandmaster Cropper Contract
+3983|T8_LABOURER_CONTRACT_FIBER|Elder Cropper Contract
+3984|T2_LABOURER_CONTRACT_HIDE|Novice Gamekeeper Contract
+3985|T3_LABOURER_CONTRACT_HIDE|Journeyman Gamekeeper Contract
+3986|T4_LABOURER_CONTRACT_HIDE|Adept Gamekeeper Contract
+3987|T5_LABOURER_CONTRACT_HIDE|Expert Gamekeeper Contract
+3988|T6_LABOURER_CONTRACT_HIDE|Master Gamekeeper Contract
+3989|T7_LABOURER_CONTRACT_HIDE|Grandmaster Gamekeeper Contract
+3990|T8_LABOURER_CONTRACT_HIDE|Elder Gamekeeper Contract
+3991|T2_LABOURER_CONTRACT_ORE|Novice Prospector Contract
+3992|T3_LABOURER_CONTRACT_ORE|Journeyman Prospector Contract
+3993|T4_LABOURER_CONTRACT_ORE|Adept Prospector Contract
+3994|T5_LABOURER_CONTRACT_ORE|Expert Prospector Contract
+3995|T6_LABOURER_CONTRACT_ORE|Master Prospector Contract
+3996|T7_LABOURER_CONTRACT_ORE|Grandmaster Prospector Contract
+3997|T8_LABOURER_CONTRACT_ORE|Elder Prospector Contract
+3998|T2_LABOURER_CONTRACT_MERCENARY|Novice Mercenary Contract
+3999|T3_LABOURER_CONTRACT_MERCENARY|Journeyman Mercenary Contract
+4000|T4_LABOURER_CONTRACT_MERCENARY|Adept Mercenary Contract
+4001|T5_LABOURER_CONTRACT_MERCENARY|Expert Mercenary Contract
+4002|T6_LABOURER_CONTRACT_MERCENARY|Master Mercenary Contract
+4003|T7_LABOURER_CONTRACT_MERCENARY|Grandmaster Mercenary Contract
+4004|T8_LABOURER_CONTRACT_MERCENARY|Elder Mercenary Contract
+4005|T2_LABOURER_CONTRACT_FISHERMAN|Novice Fisherman Contract
+4006|T3_LABOURER_CONTRACT_FISHERMAN|Journeyman Fisherman Contract
+4007|T4_LABOURER_CONTRACT_FISHERMAN|Adept Fisherman Contract
+4008|T5_LABOURER_CONTRACT_FISHERMAN|Expert Fisherman Contract
+4009|T6_LABOURER_CONTRACT_FISHERMAN|Master Fisherman Contract
+4010|T7_LABOURER_CONTRACT_FISHERMAN|Grandmaster Fisherman Contract
+4011|T8_LABOURER_CONTRACT_FISHERMAN|Elder Fisherman Contract
+4012|T2_LABOURER_CONTRACT_HUNTER|Novice Fletcher Contract
+4013|T3_LABOURER_CONTRACT_HUNTER|Journeyman Fletcher Contract
+4014|T4_LABOURER_CONTRACT_HUNTER|Adept Fletcher Contract
+4015|T5_LABOURER_CONTRACT_HUNTER|Expert Fletcher Contract
+4016|T6_LABOURER_CONTRACT_HUNTER|Master Fletcher Contract
+4017|T7_LABOURER_CONTRACT_HUNTER|Grandmaster Fletcher Contract
+4018|T8_LABOURER_CONTRACT_HUNTER|Elder Fletcher Contract
+4019|T2_LABOURER_CONTRACT_MAGE|Novice Imbuer Contract
+4020|T3_LABOURER_CONTRACT_MAGE|Journeyman Imbuer Contract
+4021|T4_LABOURER_CONTRACT_MAGE|Adept Imbuer Contract
+4022|T5_LABOURER_CONTRACT_MAGE|Expert Imbuer Contract
+4023|T6_LABOURER_CONTRACT_MAGE|Master Imbuer Contract
+4024|T7_LABOURER_CONTRACT_MAGE|Grandmaster Imbuer Contract
+4025|T8_LABOURER_CONTRACT_MAGE|Elder Imbuer Contract
+4026|T2_LABOURER_CONTRACT_WARRIOR|Novice Blacksmith Contract
+4027|T3_LABOURER_CONTRACT_WARRIOR|Journeyman Blacksmith Contract
+4028|T4_LABOURER_CONTRACT_WARRIOR|Adept Blacksmith Contract
+4029|T5_LABOURER_CONTRACT_WARRIOR|Expert Blacksmith Contract
+4030|T6_LABOURER_CONTRACT_WARRIOR|Master Blacksmith Contract
+4031|T7_LABOURER_CONTRACT_WARRIOR|Grandmaster Blacksmith Contract
+4032|T8_LABOURER_CONTRACT_WARRIOR|Elder Blacksmith Contract
+4033|T2_LABOURER_CONTRACT_TOOLMAKER|Novice Tinker Contract
+4034|T3_LABOURER_CONTRACT_TOOLMAKER|Journeyman Tinker Contract
+4035|T4_LABOURER_CONTRACT_TOOLMAKER|Adept Tinker Contract
+4036|T5_LABOURER_CONTRACT_TOOLMAKER|Expert Tinker Contract
+4037|T6_LABOURER_CONTRACT_TOOLMAKER|Master Tinker Contract
+4038|T7_LABOURER_CONTRACT_TOOLMAKER|Grandmaster Tinker Contract
+4039|T8_LABOURER_CONTRACT_TOOLMAKER|Elder Tinker Contract
+6368|T2_JOURNAL_WOOD_EMPTY|Novice Lumberjack's Journal (Empty)
+6369|T2_JOURNAL_WOOD_FULL|Novice Lumberjack's Journal (Full)
+6370|T3_JOURNAL_WOOD_EMPTY|Journeyman Lumberjack's Journal (Empty)
+6371|T3_JOURNAL_WOOD_FULL|Journeyman Lumberjack's Journal (Full)
+6372|T4_JOURNAL_WOOD_EMPTY|Adept Lumberjack's Journal (Empty)
+6373|T4_JOURNAL_WOOD_FULL|Adept Lumberjack's Journal (Full)
+6374|T5_JOURNAL_WOOD_EMPTY|Expert Lumberjack's Journal (Empty)
+6375|T5_JOURNAL_WOOD_FULL|Expert Lumberjack's Journal (Full)
+6376|T6_JOURNAL_WOOD_EMPTY|Master Lumberjack's Journal (Empty)
+6377|T6_JOURNAL_WOOD_FULL|Master Lumberjack's Journal (Full)
+6378|T7_JOURNAL_WOOD_EMPTY|Grandmaster Lumberjack's Journal (Empty)
+6379|T7_JOURNAL_WOOD_FULL|Grandmaster Lumberjack's Journal (Full)
+6380|T8_JOURNAL_WOOD_EMPTY|Elder Lumberjack's Journal (Empty)
+6381|T8_JOURNAL_WOOD_FULL|Elder Lumberjack's Journal (Full)
+6382|T2_JOURNAL_STONE_EMPTY|Novice Stonecutter's Journal (Empty)
+6383|T2_JOURNAL_STONE_FULL|Novice Stonecutter's Journal (Full)
+6384|T3_JOURNAL_STONE_EMPTY|Journeyman Stonecutter's Journal (Empty)
+6385|T3_JOURNAL_STONE_FULL|Journeyman Stonecutter's Journal (Full)
+6386|T4_JOURNAL_STONE_EMPTY|Adept Stonecutter's Journal (Empty)
+6387|T4_JOURNAL_STONE_FULL|Adept Stonecutter's Journal (Full)
+6388|T5_JOURNAL_STONE_EMPTY|Expert Stonecutter's Journal (Empty)
+6389|T5_JOURNAL_STONE_FULL|Expert Stonecutter's Journal (Full)
+6390|T6_JOURNAL_STONE_EMPTY|Master Stonecutter's Journal (Empty)
+6391|T6_JOURNAL_STONE_FULL|Master Stonecutter's Journal (Full)
+6392|T7_JOURNAL_STONE_EMPTY|Grandmaster Stonecutter's Journal (Empty)
+6393|T7_JOURNAL_STONE_FULL|Grandmaster Stonecutter's Journal (Full)
+6394|T8_JOURNAL_STONE_EMPTY|Elder Stonecutter's Journal (Empty)
+6395|T8_JOURNAL_STONE_FULL|Elder Stonecutter's Journal (Full)
+6396|T2_JOURNAL_ORE_EMPTY|Novice Prospector's Journal (Empty)
+6397|T2_JOURNAL_ORE_FULL|Novice Prospector's Journal (Full)
+6398|T3_JOURNAL_ORE_EMPTY|Journeyman Prospector's Journal (Empty)
+6399|T3_JOURNAL_ORE_FULL|Journeyman Prospector's Journal (Full)
+6400|T4_JOURNAL_ORE_EMPTY|Adept Prospector's Journal (Empty)
+6401|T4_JOURNAL_ORE_FULL|Adept Prospector's Journal (Full)
+6402|T5_JOURNAL_ORE_EMPTY|Expert Prospector's Journal (Empty)
+6403|T5_JOURNAL_ORE_FULL|Expert Prospector's Journal (Full)
+6404|T6_JOURNAL_ORE_EMPTY|Master Prospector's Journal (Empty)
+6405|T6_JOURNAL_ORE_FULL|Master Prospector's Journal (Full)
+6406|T7_JOURNAL_ORE_EMPTY|Grandmaster Prospector's Journal (Empty)
+6407|T7_JOURNAL_ORE_FULL|Grandmaster Prospector's Journal (Full)
+6408|T8_JOURNAL_ORE_EMPTY|Elder Prospector's Journal (Empty)
+6409|T8_JOURNAL_ORE_FULL|Elder Prospector's Journal (Full)
+6410|T2_JOURNAL_FIBER_EMPTY|Novice Cropper's Journal (Empty)
+6411|T2_JOURNAL_FIBER_FULL|Novice Cropper's Journal (Full)
+6412|T3_JOURNAL_FIBER_EMPTY|Journeyman Cropper's Journal (Empty)
+6413|T3_JOURNAL_FIBER_FULL|Journeyman Cropper's Journal (Full)
+6414|T4_JOURNAL_FIBER_EMPTY|Adept Cropper's Journal (Empty)
+6415|T4_JOURNAL_FIBER_FULL|Adept Cropper's Journal (Full)
+6416|T5_JOURNAL_FIBER_EMPTY|Expert Cropper's Journal (Empty)
+6417|T5_JOURNAL_FIBER_FULL|Expert Cropper's Journal (Full)
+6418|T6_JOURNAL_FIBER_EMPTY|Master Cropper's Journal (Empty)
+6419|T6_JOURNAL_FIBER_FULL|Master Cropper's Journal (Full)
+6420|T7_JOURNAL_FIBER_EMPTY|Grandmaster Cropper's Journal (Empty)
+6421|T7_JOURNAL_FIBER_FULL|Grandmaster Cropper's Journal (Full)
+6422|T8_JOURNAL_FIBER_EMPTY|Elder Cropper's Journal (Empty)
+6423|T8_JOURNAL_FIBER_FULL|Elder Cropper's Journal (Full)
+6424|T2_JOURNAL_HIDE_EMPTY|Novice Gamekeeper's Journal (Empty)
+6425|T2_JOURNAL_HIDE_FULL|Novice Gamekeeper's Journal (Full)
+6426|T3_JOURNAL_HIDE_EMPTY|Journeyman Gamekeeper's Journal (Empty)
+6427|T3_JOURNAL_HIDE_FULL|Journeyman Gamekeeper's Journal (Full)
+6428|T4_JOURNAL_HIDE_EMPTY|Adept Gamekeeper's Journal (Empty)
+6429|T4_JOURNAL_HIDE_FULL|Adept Gamekeeper's Journal (Full)
+6430|T5_JOURNAL_HIDE_EMPTY|Expert Gamekeeper's Journal (Empty)
+6431|T5_JOURNAL_HIDE_FULL|Expert Gamekeeper's Journal (Full)
+6432|T6_JOURNAL_HIDE_EMPTY|Master Gamekeeper's Journal (Empty)
+6433|T6_JOURNAL_HIDE_FULL|Master Gamekeeper's Journal (Full)
+6434|T7_JOURNAL_HIDE_EMPTY|Grandmaster Gamekeeper's Journal (Empty)
+6435|T7_JOURNAL_HIDE_FULL|Grandmaster Gamekeeper's Journal (Full)
+6436|T8_JOURNAL_HIDE_EMPTY|Elder Gamekeeper's Journal (Empty)
+6437|T8_JOURNAL_HIDE_FULL|Elder Gamekeeper's Journal (Full)
+6438|T2_JOURNAL_WARRIOR_EMPTY|Novice Blacksmith's Journal (Empty)
+6439|T2_JOURNAL_WARRIOR_FULL|Novice Blacksmith's Journal (Full)
+6440|T3_JOURNAL_WARRIOR_EMPTY|Journeyman Blacksmith's Journal (Empty)
+6441|T3_JOURNAL_WARRIOR_FULL|Journeyman Blacksmith's Journal (Full)
+6442|T4_JOURNAL_WARRIOR_EMPTY|Adept Blacksmith's Journal (Empty)
+6443|T4_JOURNAL_WARRIOR_FULL|Adept Blacksmith's Journal (Full)
+6444|T5_JOURNAL_WARRIOR_EMPTY|Expert Blacksmith's Journal (Empty)
+6445|T5_JOURNAL_WARRIOR_FULL|Expert Blacksmith's Journal (Full)
+6446|T6_JOURNAL_WARRIOR_EMPTY|Master Blacksmith's Journal (Empty)
+6447|T6_JOURNAL_WARRIOR_FULL|Master Blacksmith's Journal (Full)
+6448|T7_JOURNAL_WARRIOR_EMPTY|Grandmaster Blacksmith's Journal (Empty)
+6449|T7_JOURNAL_WARRIOR_FULL|Grandmaster Blacksmith's Journal (Full)
+6450|T8_JOURNAL_WARRIOR_EMPTY|Elder Blacksmith's Journal (Empty)
+6451|T8_JOURNAL_WARRIOR_FULL|Elder Blacksmith's Journal (Full)
+6452|T2_JOURNAL_HUNTER_EMPTY|Novice Fletcher's Journal (Empty)
+6453|T2_JOURNAL_HUNTER_FULL|Novice Fletcher's Journal (Full)
+6454|T3_JOURNAL_HUNTER_EMPTY|Journeyman Fletcher's Journal (Empty)
+6455|T3_JOURNAL_HUNTER_FULL|Journeyman Fletcher's Journal (Full)
+6456|T4_JOURNAL_HUNTER_EMPTY|Adept Fletcher's Journal (Empty)
+6457|T4_JOURNAL_HUNTER_FULL|Adept Fletcher's Journal (Full)
+6458|T5_JOURNAL_HUNTER_EMPTY|Expert Fletcher's Journal (Empty)
+6459|T5_JOURNAL_HUNTER_FULL|Expert Fletcher's Journal (Full)
+6460|T6_JOURNAL_HUNTER_EMPTY|Master Fletcher's Journal (Empty)
+6461|T6_JOURNAL_HUNTER_FULL|Master Fletcher's Journal (Full)
+6462|T7_JOURNAL_HUNTER_EMPTY|Grandmaster Fletcher's Journal (Empty)
+6463|T7_JOURNAL_HUNTER_FULL|Grandmaster Fletcher's Journal (Full)
+6464|T8_JOURNAL_HUNTER_EMPTY|Elder Fletcher's Journal (Empty)
+6465|T8_JOURNAL_HUNTER_FULL|Elder Fletcher's Journal (Full)
+6466|T2_JOURNAL_MAGE_EMPTY|Novice Imbuer's Journal (Empty)
+6467|T2_JOURNAL_MAGE_FULL|Novice Imbuer's Journal (Full)
+6468|T3_JOURNAL_MAGE_EMPTY|Journeyman Imbuer's Journal (Empty)
+6469|T3_JOURNAL_MAGE_FULL|Journeyman Imbuer's Journal (Full)
+6470|T4_JOURNAL_MAGE_EMPTY|Adept Imbuer's Journal (Empty)
+6471|T4_JOURNAL_MAGE_FULL|Adept Imbuer's Journal (Full)
+6472|T5_JOURNAL_MAGE_EMPTY|Expert Imbuer's Journal (Empty)
+6473|T5_JOURNAL_MAGE_FULL|Expert Imbuer's Journal (Full)
+6474|T6_JOURNAL_MAGE_EMPTY|Master Imbuer's Journal (Empty)
+6475|T6_JOURNAL_MAGE_FULL|Master Imbuer's Journal (Full)
+6476|T7_JOURNAL_MAGE_EMPTY|Grandmaster Imbuer's Journal (Empty)
+6477|T7_JOURNAL_MAGE_FULL|Grandmaster Imbuer's Journal (Full)
+6478|T8_JOURNAL_MAGE_EMPTY|Elder Imbuer's Journal (Empty)
+6479|T8_JOURNAL_MAGE_FULL|Elder Imbuer's Journal (Full)
+6480|T2_JOURNAL_TOOLMAKER_EMPTY|Novice Tinker's Journal (Empty)
+6481|T2_JOURNAL_TOOLMAKER_FULL|Novice Tinker's Journal (Full)
+6482|T3_JOURNAL_TOOLMAKER_EMPTY|Journeyman Tinker's Journal (Empty)
+6483|T3_JOURNAL_TOOLMAKER_FULL|Journeyman Tinker's Journal (Full)
+6484|T4_JOURNAL_TOOLMAKER_EMPTY|Adept Tinker's Journal (Empty)
+6485|T4_JOURNAL_TOOLMAKER_FULL|Adept Tinker's Journal (Full)
+6486|T5_JOURNAL_TOOLMAKER_EMPTY|Expert Tinker's Journal (Empty)
+6487|T5_JOURNAL_TOOLMAKER_FULL|Expert Tinker's Journal (Full)
+6488|T6_JOURNAL_TOOLMAKER_EMPTY|Master Tinker's Journal (Empty)
+6489|T6_JOURNAL_TOOLMAKER_FULL|Master Tinker's Journal (Full)
+6490|T7_JOURNAL_TOOLMAKER_EMPTY|Grandmaster Tinker's Journal (Empty)
+6491|T7_JOURNAL_TOOLMAKER_FULL|Grandmaster Tinker's Journal (Full)
+6492|T8_JOURNAL_TOOLMAKER_EMPTY|Elder Tinker's Journal (Empty)
+6493|T8_JOURNAL_TOOLMAKER_FULL|Elder Tinker's Journal (Full)
+6494|T2_JOURNAL_MERCENARY_EMPTY|Novice Mercenary's Journal (Empty)
+6495|T2_JOURNAL_MERCENARY_FULL|Novice Mercenary's Journal (Full)
+6496|T3_JOURNAL_MERCENARY_EMPTY|Journeyman Mercenary's Journal (Empty)
+6497|T3_JOURNAL_MERCENARY_FULL|Journeyman Mercenary's Journal (Full)
+6498|T4_JOURNAL_MERCENARY_EMPTY|Adept Mercenary's Journal (Empty)
+6499|T4_JOURNAL_MERCENARY_FULL|Adept Mercenary's Journal (Full)
+6500|T5_JOURNAL_MERCENARY_EMPTY|Expert Mercenary's Journal (Empty)
+6501|T5_JOURNAL_MERCENARY_FULL|Expert Mercenary's Journal (Full)
+6502|T6_JOURNAL_MERCENARY_EMPTY|Master Mercenary's Journal (Empty)
+6503|T6_JOURNAL_MERCENARY_FULL|Master Mercenary's Journal (Full)
+6504|T7_JOURNAL_MERCENARY_EMPTY|Grandmaster Mercenary's Journal (Empty)
+6505|T7_JOURNAL_MERCENARY_FULL|Grandmaster Mercenary's Journal (Full)
+6506|T8_JOURNAL_MERCENARY_EMPTY|Elder Mercenary's Journal (Empty)
+6507|T8_JOURNAL_MERCENARY_FULL|Elder Mercenary's Journal (Full)
+6508|T2_JOURNAL_TROPHY_GENERAL_EMPTY|Novice's Generalist Trophy Journal (Empty)
+6509|T2_JOURNAL_TROPHY_GENERAL_FULL|Novice's Generalist Trophy Journal (Full)
+6510|T3_JOURNAL_TROPHY_GENERAL_EMPTY|Journeyman's Generalist Trophy Journal (Empty)
+6511|T3_JOURNAL_TROPHY_GENERAL_FULL|Journeyman's Generalist Trophy Journal (Full)
+6512|T4_JOURNAL_TROPHY_GENERAL_EMPTY|Adept's Generalist Trophy Journal (Empty)
+6513|T4_JOURNAL_TROPHY_GENERAL_FULL|Adept's Generalist Trophy Journal (Full)
+6514|T5_JOURNAL_TROPHY_GENERAL_EMPTY|Expert's Generalist Trophy Journal (Empty)
+6515|T5_JOURNAL_TROPHY_GENERAL_FULL|Expert's Generalist Trophy Journal (Full)
+6516|T6_JOURNAL_TROPHY_GENERAL_EMPTY|Master's Generalist Trophy Journal (Empty)
+6517|T6_JOURNAL_TROPHY_GENERAL_FULL|Master's Generalist Trophy Journal (Full)
+6518|T7_JOURNAL_TROPHY_GENERAL_EMPTY|Grandmaster's Generalist Trophy Journal (Empty)
+6519|T7_JOURNAL_TROPHY_GENERAL_FULL|Grandmaster's Generalist Trophy Journal (Full)
+6520|T8_JOURNAL_TROPHY_GENERAL_EMPTY|Elder's Generalist Trophy Journal (Empty)
+6521|T8_JOURNAL_TROPHY_GENERAL_FULL|Elder's Generalist Trophy Journal (Full)
+6522|T2_JOURNAL_TROPHY_MERCENARY_EMPTY|Novice Mercenary's Trophy Journal (Empty)
+6523|T2_JOURNAL_TROPHY_MERCENARY_FULL|Novice Mercenary's Trophy Journal (Full)
+6524|T3_JOURNAL_TROPHY_MERCENARY_EMPTY|Journeyman Mercenary's Trophy Journal (Empty)
+6525|T3_JOURNAL_TROPHY_MERCENARY_FULL|Journeyman Mercenary's Trophy Journal (Full)
+6526|T4_JOURNAL_TROPHY_MERCENARY_EMPTY|Adept Mercenary's Trophy Journal (Empty)
+6527|T4_JOURNAL_TROPHY_MERCENARY_FULL|Adept Mercenary's Trophy Journal (Full)
+6528|T5_JOURNAL_TROPHY_MERCENARY_EMPTY|Expert Mercenary's Trophy Journal (Empty)
+6529|T5_JOURNAL_TROPHY_MERCENARY_FULL|Expert Mercenary's Trophy Journal (Full)
+6530|T6_JOURNAL_TROPHY_MERCENARY_EMPTY|Master Mercenary's Trophy Journal (Empty)
+6531|T6_JOURNAL_TROPHY_MERCENARY_FULL|Master Mercenary's Trophy Journal (Full)
+6532|T7_JOURNAL_TROPHY_MERCENARY_EMPTY|Grandmaster Mercenary's Trophy Journal (Empty)
+6533|T7_JOURNAL_TROPHY_MERCENARY_FULL|Grandmaster Mercenary's Trophy Journal (Full)
+6534|T8_JOURNAL_TROPHY_MERCENARY_EMPTY|Elder Mercenary's Trophy Journal (Empty)
+6535|T8_JOURNAL_TROPHY_MERCENARY_FULL|Elder Mercenary's Trophy Journal (Full)
+6536|T2_JOURNAL_TROPHY_HIDE_EMPTY|Novice Gamekeeper's Trophy Journal (Empty)
+6537|T2_JOURNAL_TROPHY_HIDE_FULL|Novice Gamekeeper's Trophy Journal (Full)
+6538|T3_JOURNAL_TROPHY_HIDE_EMPTY|Journeyman Gamekeeper's Trophy Journal (Empty)
+6539|T3_JOURNAL_TROPHY_HIDE_FULL|Journeyman Gamekeeper's Trophy Journal (Full)
+6540|T4_JOURNAL_TROPHY_HIDE_EMPTY|Adept Gamekeeper's Trophy Journal (Empty)
+6541|T4_JOURNAL_TROPHY_HIDE_FULL|Adept Gamekeeper's Trophy Journal (Full)
+6542|T5_JOURNAL_TROPHY_HIDE_EMPTY|Expert Gamekeeper's Trophy Journal (Empty)
+6543|T5_JOURNAL_TROPHY_HIDE_FULL|Expert Gamekeeper's Trophy Journal (Full)
+6544|T6_JOURNAL_TROPHY_HIDE_EMPTY|Master Gamekeeper's Trophy Journal (Empty)
+6545|T6_JOURNAL_TROPHY_HIDE_FULL|Master Gamekeeper's Trophy Journal (Full)
+6546|T7_JOURNAL_TROPHY_HIDE_EMPTY|Grandmaster Gamekeeper's Trophy Journal (Empty)
+6547|T7_JOURNAL_TROPHY_HIDE_FULL|Grandmaster Gamekeeper's Trophy Journal (Full)
+6548|T8_JOURNAL_TROPHY_HIDE_EMPTY|Elder Gamekeeper's Trophy Journal (Empty)
+6549|T8_JOURNAL_TROPHY_HIDE_FULL|Elder Gamekeeper's Trophy Journal (Full)
+6550|T2_JOURNAL_TROPHY_WOOD_EMPTY|Novice Lumberjack's Trophy Journal (Empty)
+6551|T2_JOURNAL_TROPHY_WOOD_FULL|Novice Lumberjack's Trophy Journal (Full)
+6552|T3_JOURNAL_TROPHY_WOOD_EMPTY|Journeyman Lumberjack's Trophy Journal (Empty)
+6553|T3_JOURNAL_TROPHY_WOOD_FULL|Journeyman Lumberjack's Trophy Journal (Full)
+6554|T4_JOURNAL_TROPHY_WOOD_EMPTY|Adept Lumberjack's Trophy Journal (Empty)
+6555|T4_JOURNAL_TROPHY_WOOD_FULL|Adept Lumberjack's Trophy Journal (Full)
+6556|T5_JOURNAL_TROPHY_WOOD_EMPTY|Expert Lumberjack's Trophy Journal (Empty)
+6557|T5_JOURNAL_TROPHY_WOOD_FULL|Expert Lumberjack's Trophy Journal (Full)
+6558|T6_JOURNAL_TROPHY_WOOD_EMPTY|Master Lumberjack's Trophy Journal (Empty)
+6559|T6_JOURNAL_TROPHY_WOOD_FULL|Master Lumberjack's Trophy Journal (Full)
+6560|T7_JOURNAL_TROPHY_WOOD_EMPTY|Grandmaster Lumberjack's Trophy Journal (Empty)
+6561|T7_JOURNAL_TROPHY_WOOD_FULL|Grandmaster Lumberjack's Trophy Journal (Full)
+6562|T8_JOURNAL_TROPHY_WOOD_EMPTY|Elder Lumberjack's Trophy Journal (Empty)
+6563|T8_JOURNAL_TROPHY_WOOD_FULL|Elder Lumberjack's Trophy Journal (Full)
+6564|T2_JOURNAL_TROPHY_STONE_EMPTY|Novice Stonecutter's Trophy Journal (Empty)
+6565|T2_JOURNAL_TROPHY_STONE_FULL|Novice Stonecutter's Trophy Journal (Full)
+6566|T3_JOURNAL_TROPHY_STONE_EMPTY|Journeyman Stonecutter's Trophy Journal (Empty)
+6567|T3_JOURNAL_TROPHY_STONE_FULL|Journeyman Stonecutter's Trophy Journal (Full)
+6568|T4_JOURNAL_TROPHY_STONE_EMPTY|Adept Stonecutter's Trophy Journal (Empty)
+6569|T4_JOURNAL_TROPHY_STONE_FULL|Adept Stonecutter's Trophy Journal (Full)
+6570|T5_JOURNAL_TROPHY_STONE_EMPTY|Expert Stonecutter's Trophy Journal (Empty)
+6571|T5_JOURNAL_TROPHY_STONE_FULL|Expert Stonecutter's Trophy Journal (Full)
+6572|T6_JOURNAL_TROPHY_STONE_EMPTY|Master Stonecutter's Trophy Journal (Empty)
+6573|T6_JOURNAL_TROPHY_STONE_FULL|Master Stonecutter's Trophy Journal (Full)
+6574|T7_JOURNAL_TROPHY_STONE_EMPTY|Grandmaster Stonecutter's Trophy Journal (Empty)
+6575|T7_JOURNAL_TROPHY_STONE_FULL|Grandmaster Stonecutter's Trophy Journal (Full)
+6576|T8_JOURNAL_TROPHY_STONE_EMPTY|Elder Stonecutter's Trophy Journal (Empty)
+6577|T8_JOURNAL_TROPHY_STONE_FULL|Elder Stonecutter's Trophy Journal (Full)
+6578|T2_JOURNAL_TROPHY_ORE_EMPTY|Novice Prospector's Trophy Journal (Empty)
+6579|T2_JOURNAL_TROPHY_ORE_FULL|Novice Prospector's Trophy Journal (Full)
+6580|T3_JOURNAL_TROPHY_ORE_EMPTY|Journeyman Prospector's Trophy Journal (Empty)
+6581|T3_JOURNAL_TROPHY_ORE_FULL|Journeyman Prospector's Trophy Journal (Full)
+6582|T4_JOURNAL_TROPHY_ORE_EMPTY|Adept Prospector's Trophy Journal (Empty)
+6583|T4_JOURNAL_TROPHY_ORE_FULL|Adept Prospector's Trophy Journal (Full)
+6584|T5_JOURNAL_TROPHY_ORE_EMPTY|Expert Prospector's Trophy Journal (Empty)
+6585|T5_JOURNAL_TROPHY_ORE_FULL|Expert Prospector's Trophy Journal (Full)
+6586|T6_JOURNAL_TROPHY_ORE_EMPTY|Master Prospector's Trophy Journal (Empty)
+6587|T6_JOURNAL_TROPHY_ORE_FULL|Master Prospector's Trophy Journal (Full)
+6588|T7_JOURNAL_TROPHY_ORE_EMPTY|Grandmaster Prospector's Trophy Journal (Empty)
+6589|T7_JOURNAL_TROPHY_ORE_FULL|Grandmaster Prospector's Trophy Journal (Full)
+6590|T8_JOURNAL_TROPHY_ORE_EMPTY|Elder Prospector's Trophy Journal (Empty)
+6591|T8_JOURNAL_TROPHY_ORE_FULL|Elder Prospector's Trophy Journal (Full)
+6592|T2_JOURNAL_TROPHY_FIBER_EMPTY|Novice Cropper's Trophy Journal (Empty)
+6593|T2_JOURNAL_TROPHY_FIBER_FULL|Novice Cropper's Trophy Journal (Full)
+6594|T3_JOURNAL_TROPHY_FIBER_EMPTY|Journeyman Cropper's Trophy Journal (Empty)
+6595|T3_JOURNAL_TROPHY_FIBER_FULL|Journeyman Cropper's Trophy Journal (Full)
+6596|T4_JOURNAL_TROPHY_FIBER_EMPTY|Adept Cropper's Trophy Journal (Empty)
+6597|T4_JOURNAL_TROPHY_FIBER_FULL|Adept Cropper's Trophy Journal (Full)
+6598|T5_JOURNAL_TROPHY_FIBER_EMPTY|Expert Cropper's Trophy Journal (Empty)
+6599|T5_JOURNAL_TROPHY_FIBER_FULL|Expert Cropper's Trophy Journal (Full)
+6600|T6_JOURNAL_TROPHY_FIBER_EMPTY|Master Cropper's Trophy Journal (Empty)
+6601|T6_JOURNAL_TROPHY_FIBER_FULL|Master Cropper's Trophy Journal (Full)
+6602|T7_JOURNAL_TROPHY_FIBER_EMPTY|Grandmaster Cropper's Trophy Journal (Empty)
+6603|T7_JOURNAL_TROPHY_FIBER_FULL|Grandmaster Cropper's Trophy Journal (Full)
+6604|T8_JOURNAL_TROPHY_FIBER_EMPTY|Elder Cropper's Trophy Journal (Empty)
+6605|T8_JOURNAL_TROPHY_FIBER_FULL|Elder Cropper's Trophy Journal (Full)
+6606|T2_JOURNAL_TROPHY_FISHING_EMPTY|Novice Fisherman's Trophy Journal (Empty)
+6607|T2_JOURNAL_TROPHY_FISHING_FULL|Novice Fisherman's Trophy Journal (Full)
+6608|T3_JOURNAL_TROPHY_FISHING_EMPTY|Journeyman Fisherman's Trophy Journal (Empty)
+6609|T3_JOURNAL_TROPHY_FISHING_FULL|Journeyman Fisherman's Trophy Journal (Full)
+6610|T4_JOURNAL_TROPHY_FISHING_EMPTY|Adept Fisherman's Trophy Journal (Empty)
+6611|T4_JOURNAL_TROPHY_FISHING_FULL|Adept Fisherman's Trophy Journal (Full)
+6612|T5_JOURNAL_TROPHY_FISHING_EMPTY|Expert Fisherman's Trophy Journal (Empty)
+6613|T5_JOURNAL_TROPHY_FISHING_FULL|Expert Fisherman's Trophy Journal (Full)
+6614|T6_JOURNAL_TROPHY_FISHING_EMPTY|Master Fisherman's Trophy Journal (Empty)
+6615|T6_JOURNAL_TROPHY_FISHING_FULL|Master Fisherman's Trophy Journal (Full)
+6616|T7_JOURNAL_TROPHY_FISHING_EMPTY|Grandmaster Fisherman's Trophy Journal (Empty)
+6617|T7_JOURNAL_TROPHY_FISHING_FULL|Grandmaster Fisherman's Trophy Journal (Full)
+6618|T8_JOURNAL_TROPHY_FISHING_EMPTY|Elder Fisherman's Trophy Journal (Empty)
+6619|T8_JOURNAL_TROPHY_FISHING_FULL|Elder Fisherman's Trophy Journal (Full)
+6620|T2_JOURNAL_FISHING_EMPTY|Novice Fisherman's Journal (Empty)
+6621|T2_JOURNAL_FISHING_FULL|Novice Fisherman's Journal (Full)
+6622|T3_JOURNAL_FISHING_EMPTY|Journeyman Fisherman's Journal (Empty)
+6623|T3_JOURNAL_FISHING_FULL|Journeyman Fisherman's Journal (Full)
+6624|T4_JOURNAL_FISHING_EMPTY|Adept Fisherman's Journal (Empty)
+6625|T4_JOURNAL_FISHING_FULL|Adept Fisherman's Journal (Full)
+6626|T5_JOURNAL_FISHING_EMPTY|Expert Fisherman's Journal (Empty)
+6627|T5_JOURNAL_FISHING_FULL|Expert Fisherman's Journal (Full)
+6628|T6_JOURNAL_FISHING_EMPTY|Master Fisherman's Journal (Empty)
+6629|T6_JOURNAL_FISHING_FULL|Master Fisherman's Journal (Full)
+6630|T7_JOURNAL_FISHING_EMPTY|Grandmaster Fisherman's Journal (Empty)
+6631|T7_JOURNAL_FISHING_FULL|Grandmaster Fisherman's Journal (Full)
+6632|T8_JOURNAL_FISHING_EMPTY|Elder Fisherman's Journal (Empty)
+6633|T8_JOURNAL_FISHING_FULL|Elder Fisherman's Journal (Full)
+366|T4_SKILLBOOK_STANDARD|Adept's Tome of Insight

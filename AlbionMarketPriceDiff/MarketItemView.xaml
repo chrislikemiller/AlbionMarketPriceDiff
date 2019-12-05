@@ -1,0 +1,120 @@
+﻿<UserControl x:Class="AlbionMarketPriceDiff.MarketItemView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:AlbionMarketPriceDiff"
+             xmlns:converters="clr-namespace:AlbionMarketPriceDiff.Util.Converters"
+             mc:Ignorable="d" 
+             Foreground="Black">
+    <UserControl.Resources>
+        <converters:DateTimeToStringConverter x:Key="DateTimeToStringConverter"/>
+        <converters:TradableMarketItemToItemTitleConverter x:Key="TradableMarketItemToItemTitleConverter"/>
+    </UserControl.Resources>
+    <Border BorderThickness="2"
+            BorderBrush="DimGray"
+            Margin="10">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="200"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="200"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <TextBlock Text="{Binding Converter={StaticResource TradableMarketItemToItemTitleConverter}}"
+                       FontWeight="Bold"
+                       Grid.Row="0"
+                       Grid.ColumnSpan="3"
+                       Margin="2"/>
+            <Grid Grid.Row="1"
+                  Grid.Column="0"
+                  Margin="5"
+                  DataContext="{Binding FromItem}">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="1*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <TextBlock Text="City:"/>
+                    <TextBlock Text="Price:"/>
+                    <TextBlock Text="Last updated:"/>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+                    <TextBlock Text="{Binding City}"/>
+                    <TextBlock Text="{Binding SellPriceMin, StringFormat='{}{0:N0} silver'}"/>
+                    <TextBlock Text="{Binding SellPriceMinDate, Converter={StaticResource DateTimeToStringConverter}}"/>
+                </StackPanel>
+            </Grid>
+            <TextBlock Text=">>>>>>"
+                       Grid.Row="1"
+                       Grid.Column="1"
+                       Margin="10"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Center"/>
+            <Grid Grid.Row="1"
+                  Grid.Column="2"
+                  Margin="5"
+                  DataContext="{Binding ToItem}">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="1*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <TextBlock Text="City:"/>
+                    <TextBlock Text="Price:"/>
+                    <TextBlock Text="Last updated:"/>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+                    <TextBlock Text="{Binding City}"/>
+                    <TextBlock Text="{Binding SellPriceMin, StringFormat='{}{0:N0} silver'}"/>
+                    <TextBlock Text="{Binding SellPriceMinDate, Converter={StaticResource DateTimeToStringConverter}}"/>
+                </StackPanel>
+            </Grid>
+            <Grid Grid.Row="2"
+                  Grid.ColumnSpan="3"
+                  HorizontalAlignment="Center">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <TextBlock Text="Price difference in %:"
+                               Margin="3,0"/>
+                    <TextBlock Text="Absolute price difference:"
+                               Margin="3,0"/>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+                    <TextBlock Text="{Binding ProfitPercent, StringFormat='{}{0}%'}"
+                               Margin="3,0"
+                               FontWeight="Bold"
+                               HorizontalAlignment="Center"/>
+                    <TextBlock Text="{Binding ProfitAbsolute, StringFormat='{}{0:N0} silver'}"
+                               Margin="3,0"
+                               FontWeight="Bold"
+                               HorizontalAlignment="Center"/>
+                </StackPanel>
+            </Grid>
+
+            <!--
+                Left side: from city
+                Right side: to city
+                
+                Price
+                Last updated date
+                
+                Price difference in %
+                Absolute price difference
+            
+                Color the date - green fresh, yellow old-ish, red very old (day+)
+                
+                
+            
+            -->
+        </Grid>
+    </Border>
+</UserControl>
