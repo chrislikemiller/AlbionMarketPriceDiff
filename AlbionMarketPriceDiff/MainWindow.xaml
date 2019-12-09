@@ -3,7 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:AlbionMarketPriceDiff"
+        xmlns:view="clr-namespace:AlbionMarketPriceDiff.View"
         xmlns:converters="clr-namespace:AlbionMarketPriceDiff.Util.Converters"
         xmlns:model="clr-namespace:AlbionMarketPriceDiff.Model"
         mc:Ignorable="d"
@@ -22,21 +22,17 @@
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition/>
+            <RowDefinition Height="40"/>
         </Grid.RowDefinitions>
-        <!--
-        
-        TODO:
-        - settings:
-            * user has premium
-        
-        
-        -->
+
         <StackPanel Grid.Row="0" Grid.Column="0"
                     Orientation="Vertical">
+
             <Button Content="Get Prices"
                     Margin="5"
                     Height="30"
                     Command="{Binding GetPricesCommand}"/>
+
             <TextBlock Text="Cities:"
                        FontWeight="DemiBold"
                        Margin="5"/>
@@ -53,11 +49,12 @@
                     </DataTemplate>
                 </ListBox.ItemTemplate>
             </ListBox>
+
             <TextBlock Text="Sources:"
                        FontWeight="DemiBold"
                        Margin="5"/>
             <ListBox ItemsSource="{Binding Sources}"
-                 SelectionMode="Multiple">
+                     SelectionMode="Multiple">
                 <ListBox.ItemContainerStyle>
                     <Style TargetType="{x:Type ListBoxItem}" BasedOn="{StaticResource {x:Type ListBoxItem}}">
                         <Setter Property="IsSelected" Value="{Binding IsSelected, Mode=TwoWay}" />
@@ -69,28 +66,33 @@
                     </DataTemplate>
                 </ListBox.ItemTemplate>
             </ListBox>
+
             <StackPanel Orientation="Horizontal"
                         VerticalAlignment="Center"
                         Margin="5">
                 <TextBlock Text="Data max"
                            VerticalAlignment="Center"/>
-                <TextBox Text="{Binding DateAgeInHours, Mode=TwoWay}"
+                <TextBox Text="{Binding DefaultMaxDateInHours, Mode=TwoWay}"
                          Margin="5"
                          Padding="2,1"
                          Width="25"
                          VerticalAlignment="Center"
-                         PreviewTextInput="TextBox_PreviewTextInput"/>
+                         PreviewTextInput="OnPreviewTextInput"
+                         MouseDoubleClick="OnSelected"
+                         GotKeyboardFocus="OnSelected"
+                         PreviewMouseLeftButtonDown="SelectivelyIgnoreMouseButton" />
                 <TextBlock Text="hours old"
                            VerticalAlignment="Center"/>
             </StackPanel>
+
             <StackPanel>
-                <TextBlock Text="Sort profit by:"
+                <TextBlock Text="Sort by:"
                            Margin="5"/>
                 <RadioButton Content="Exact silver value"
-                             IsChecked="{Binding PriceOrderingType, Converter={StaticResource EnumToBooleanConverter}, ConverterParameter={x:Static model:PriceOrderingType.Absolute}}"
+                             IsChecked="{Binding PriceOrderingType, Converter={StaticResource EnumToBooleanConverter}, ConverterParameter={x:Static model:PriceOrderingType.AbsoluteProfit}}"
                              Margin="5,0"/>
                 <RadioButton Content="Percent value"
-                             IsChecked="{Binding PriceOrderingType, Converter={StaticResource EnumToBooleanConverter}, ConverterParameter={x:Static model:PriceOrderingType.Percent}}"
+                             IsChecked="{Binding PriceOrderingType, Converter={StaticResource EnumToBooleanConverter}, ConverterParameter={x:Static model:PriceOrderingType.PercentProfit}}"
                              Margin="5,0"/>
             </StackPanel>
             <TextBlock Text="Loading..."
@@ -98,12 +100,19 @@
                        Margin="10"
                        Visibility="{Binding IsLoading, Mode=TwoWay, Converter={StaticResource BooleanToVisibilityConverter}}"/>
         </StackPanel>
+
+        <Button Grid.Row="1"
+                Grid.Column="0"
+                Margin="5"
+                Content="Settings"
+                Command="{Binding OpenConfigWindowCommand}"/>
         <ListView Grid.Row="0" 
+                  Grid.RowSpan="2"
                   Grid.Column="1"
                   ItemsSource="{Binding MarketItems}">
             <ListView.ItemTemplate>
                 <DataTemplate>
-                    <local:MarketItemView/>
+                    <view:MarketItemView/>
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>

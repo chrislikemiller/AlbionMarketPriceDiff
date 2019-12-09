@@ -11,7 +11,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace AlbionMarketPriceDiff
+namespace AlbionMarketPriceDiff.View
 {
     /// <summary>
     /// Interaction logic for MarketItemView.xaml

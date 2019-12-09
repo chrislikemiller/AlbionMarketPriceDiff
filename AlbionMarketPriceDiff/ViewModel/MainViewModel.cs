@@ -1,5 +1,7 @@
 ﻿using AlbionMarketPriceDiff.Model;
 using AlbionMarketPriceDiff.Util;
+using AlbionMarketPriceDiff.Util.Config;
+using AlbionMarketPriceDiff.View;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -14,60 +16,59 @@ using System.Windows.Input;
 
 namespace AlbionMarketPriceDiff.ViewModel
 {
-    public class MainViewModel : RaisesPropertyChanged
+    public sealed class MainViewModel : RaisesPropertyChanged, IDisposable
     {
         private readonly IMarketService _marketService;
-        private readonly DataStore _dataStore;
+        private readonly UserConfig _userConfig;
+
         private ObservableCollection<TradableMarketItem> _items;
-        private int _dateAgeInHours = 24;
+        private IEnumerable<(SelectableValue<string>, IEnumerable<(string, string)>)> _loadedResources;
         private PriceOrderingType priceOrderingType;
         private bool _isLoading;
 
-        public MainViewModel(IMarketService marketService_, DataStore dataStore_)
+        public MainViewModel(IMarketService marketService_, UserConfig userConfig_)
         {
-            _marketService = marketService_;
-            _dataStore = dataStore_;
             MarketItems = new ObservableCollection<TradableMarketItem>();
+            _marketService = marketService_;
+            _userConfig = userConfig_;
+            _loadedResources = ParseResources(userConfig_);
+
             GetPricesCommand = new RelayCommand(async () =>
             {
                 IsLoading = true;
                 try
                 {
                     var allItems = new List<MarketItem>();
-                    _dataStore.UpdateSelection(Sources);
-                    foreach (var items in await _marketService.GetPrices(_dataStore, SelectedCities))
+                    foreach (var items in await _marketService.GetPrices(_loadedResources, SelectedCities))
                     {
                         allItems.AddRange(items);
                     }
 
                     var now = DateTime.Now;
-                    var timespan = TimeSpan.FromHours(DateAgeInHours);
+                    var timespan = TimeSpan.FromHours(DefaultMaxDateInHours);
                     var groupedItems = allItems
                         .Where(x => IsDateFreshEnough(x, now, timespan))
                         .GroupBy(x => x.ItemId);
-
-                    var temp = new List<TradableMarketItem>();
-                    foreach (var group in groupedItems)
-                    {
-                        var list = group.ToList();
-                        for (int i = 0; i < list.Count; i++)
-                        {
-                            for (int j = 0; j < list.Count; j++)
-                            {
-                                if (i != j && list[i].SellPriceMin < list[j].SellPriceMin)
-                                {
-                                    temp.Add(new TradableMarketItem { FromItem = list[i], ToItem = list[j] });
-                                }
-                            }
-                        }
-                    }
-                    MarketItems = new ObservableCollection<TradableMarketItem>(temp.OrderByType(PriceOrderingType));
+                    MarketItems = new ObservableCollection<TradableMarketItem>(
+                        CollectTradableItems(groupedItems)
+                        .OrderByType(PriceOrderingType));
                 }
                 catch (Exception ex)
                 {
                     MessageBox.Show(ex.Message, "Error", MessageBoxButton.OK, MessageBoxImage.Error);
                 }
-                IsLoading = false;
+                finally
+                {
+                    IsLoading = false;
+                }
+            });
+            OpenConfigWindowCommand = new RelayCommand(() =>
+            {
+                var configWindow = new ConfigWindow()
+                {
+                    DataContext = _userConfig
+                };
+                configWindow.ShowDialog();
             });
         }
 
@@ -81,23 +82,16 @@ namespace AlbionMarketPriceDiff.ViewModel
             }
         }
 
-        public IEnumerable<SelectableValue<string>> Cities { get; } = new SelectableValue<string>[]
-        {
-            new SelectableValue<string> { Value = "Black Market", IsSelected = false },
-            new SelectableValue<string> { Value = "Caerleon", IsSelected = false },
-            new SelectableValue<string> { Value = "Bridgewatch", IsSelected = false},
-            new SelectableValue<string> { Value = "Martlock", IsSelected = false },
-            new SelectableValue<string> { Value = "Thetford", IsSelected = false },
-            new SelectableValue<string> { Value = "Lymhurst", IsSelected = false },
-            new SelectableValue<string> { Value = "Fortsterling", IsSelected = false },
-        };
+        public IEnumerable<string> SelectedCities => Cities.Where(x => x.IsSelected).Select(x => x.Value);
 
-        public int DateAgeInHours
+        public IEnumerable<SelectableValue<string>> Cities => _userConfig.Cities;
+
+        public int DefaultMaxDateInHours
         {
-            get => _dateAgeInHours;
+            get => _userConfig.DefaultMaxDateInHours;
             set
             {
-                _dateAgeInHours = value;
+                _userConfig.DefaultMaxDateInHours = value;
                 OnPropertyChanged();
             }
         }
@@ -124,21 +118,52 @@ namespace AlbionMarketPriceDiff.ViewModel
             }
         }
 
-        public IEnumerable<string> SelectedCities => Cities.Where(x => x.IsSelected).Select(x => x.Value);
-        public IEnumerable<SelectableValue<string>> Sources { get; } = new SelectableValue<string>[]
-        {
-            new SelectableValue<string> { Value = DataStore.RESOURCES, IsSelected = true },
-            new SelectableValue<string> { Value = DataStore.ITEMS, IsSelected = false },
-            new SelectableValue<string> { Value = DataStore.FOODS, IsSelected = false },
-            new SelectableValue<string> { Value = DataStore.MISC, IsSelected = false },
-        };
-
+        public IEnumerable<SelectableValue<string>> Sources => _loadedResources.Select(x => x.Item1);
         public ICommand GetPricesCommand { get; set; }
+        public ICommand OpenConfigWindowCommand { get; set; }
 
         private bool IsDateFreshEnough(MarketItem marketItem_, DateTime now_, TimeSpan span_)
             => now_.Subtract(marketItem_.SellPriceMinDate.LocalDateTime).TotalMilliseconds <= span_.TotalMilliseconds;
 
-        private bool IsDateFreshEnough(TradableMarketItem marketItem_, DateTime now_, TimeSpan span_)
-            => IsDateFreshEnough(marketItem_.FromItem, now_, span_) && IsDateFreshEnough(marketItem_.ToItem, now_, span_);
+        private IEnumerable<(SelectableValue<string>, IEnumerable<(string, string)>)> ParseResources(UserConfig userConfig_)
+        {
+            foreach (var (selectable, path) in userConfig_.Resources)
+            {
+                var lines = File.ReadAllLines(path);
+                var split = lines
+                    .Select(x => x.Split(new[] { '|' }, StringSplitOptions.RemoveEmptyEntries))
+                    .Select(x => (x[1], x.Length == 2 ? x[1] : x[2]));
+                yield return (selectable, split);
+            }
+        }
+
+        private static IEnumerable<TradableMarketItem> CollectTradableItems(IEnumerable<IGrouping<string, MarketItem>> groupedItems)
+        {
+            foreach (var group in groupedItems)
+            {
+                var list = group.ToList();
+                for (int i = 0; i < list.Count; i++)
+                {
+                    for (int j = 0; j < list.Count; j++)
+                    {
+                        if (i != j && list[i].SellPriceMin < list[j].SellPriceMin)
+                        {
+                            yield return new TradableMarketItem { FromItem = list[i], ToItem = list[j] };
+                        }
+                    }
+                }
+            }
+        }
+
+        public override void OnPropertyChanged([CallerMemberName] string propertyName = null)
+        {
+            base.OnPropertyChanged(propertyName);
+            _userConfig?.SaveConfig();
+        }
+
+        public void Dispose()
+        {
+            _userConfig?.SaveConfig();
+        }
     }
 }
