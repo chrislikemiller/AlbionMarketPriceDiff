@@ -6,7 +6,7 @@ namespace AlbionMarketPriceDiff.Model
 {
     public enum PriceOrderingType
     {
-        Absolute,
-        Percent
+        AbsoluteProfit,
+        PercentProfit,
     }
 }

@@ -1,4 +1,5 @@
 ﻿using AlbionMarketPriceDiff.Util;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -9,7 +10,10 @@ namespace AlbionMarketPriceDiff.Model
     {
         private bool _isSelected;
 
+        [JsonProperty("value")]
         public T Value { get; set; }
+        
+        [JsonProperty("is_selected")]
         public bool IsSelected
         {
             get => _isSelected;

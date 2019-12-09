@@ -11,8 +11,10 @@ namespace AlbionMarketPriceDiff.Util
     {
         public static readonly JsonSerializerSettings Settings = new JsonSerializerSettings
         {
+            Formatting = Formatting.Indented,
             MetadataPropertyHandling = MetadataPropertyHandling.Ignore,
             DateParseHandling = DateParseHandling.None,
+            TypeNameHandling = TypeNameHandling.None,
             Converters =
             {
                 new IsoDateTimeConverter { DateTimeStyles = DateTimeStyles.AssumeUniversal }
