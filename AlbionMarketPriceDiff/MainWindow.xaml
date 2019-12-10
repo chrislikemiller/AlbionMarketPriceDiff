@@ -28,11 +28,6 @@
         <StackPanel Grid.Row="0" Grid.Column="0"
                     Orientation="Vertical">
 
-            <Button Content="Get Prices"
-                    Margin="5"
-                    Height="30"
-                    Command="{Binding GetPricesCommand}"/>
-
             <TextBlock Text="Cities:"
                        FontWeight="DemiBold"
                        Margin="5"/>
@@ -69,7 +64,7 @@
 
             <StackPanel Orientation="Horizontal"
                         VerticalAlignment="Center"
-                        Margin="5">
+                        Margin="5,5,0,0">
                 <TextBlock Text="Data max"
                            VerticalAlignment="Center"/>
                 <TextBox Text="{Binding DefaultMaxDateInHours, Mode=TwoWay}"
@@ -85,7 +80,7 @@
                            VerticalAlignment="Center"/>
             </StackPanel>
 
-            <StackPanel>
+            <StackPanel Margin="0,0,0,10">
                 <TextBlock Text="Sort by:"
                            Margin="5"/>
                 <RadioButton Content="Exact silver value"
@@ -95,6 +90,12 @@
                              IsChecked="{Binding PriceOrderingType, Converter={StaticResource EnumToBooleanConverter}, ConverterParameter={x:Static model:PriceOrderingType.PercentProfit}}"
                              Margin="5,0"/>
             </StackPanel>
+
+            <Button Content="Get Prices"
+                    Margin="5"
+                    Height="30"
+                    Command="{Binding GetPricesCommand}"/>
+            
             <TextBlock Text="Loading..."
                        FontWeight="Bold"
                        Margin="10"
