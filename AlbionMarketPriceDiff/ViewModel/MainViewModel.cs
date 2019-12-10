@@ -39,7 +39,9 @@ namespace AlbionMarketPriceDiff.ViewModel
                 try
                 {
                     var allItems = new List<MarketItem>();
-                    foreach (var items in await _marketService.GetPrices(_loadedResources, SelectedCities))
+                    foreach (var items in await _marketService.GetPrices(
+                        _loadedResources.Where(x => x.Item1.IsSelected), 
+                        Cities.Where(x => x.IsSelected).Select(x => x.Value)))
                     {
                         allItems.AddRange(items);
                     }
@@ -81,8 +83,6 @@ namespace AlbionMarketPriceDiff.ViewModel
                 OnPropertyChanged();
             }
         }
-
-        public IEnumerable<string> SelectedCities => Cities.Where(x => x.IsSelected).Select(x => x.Value);
 
         public IEnumerable<SelectableValue<string>> Cities => _userConfig.Cities;
 
